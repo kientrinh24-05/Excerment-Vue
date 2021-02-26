@@ -7,69 +7,65 @@
       <b-row>
         <div>
           <b-card no-body>
-            <b-tabs pills card >
-              <b-tab title="Tất cả" active 
+            <b-tabs pills card>
+              <b-tab title="Tất cả" active
                 ><b-card-text>
                   <div>
                     <b-card-group deck>
-                      <b-card
-                        img-src="https://picsum.photos/600/300/?image=25"
-                        img-alt="Image"
-                        img-top
-                        tag="article"
-                        style="max-width: 10rem"
-                        class="mb-2"
-                      >
-                        <b class="price">2.000.000đ</b>
-                        <p>Trà Tắc Xí Muội</p>
-                      </b-card>
-                       <b-card
-                        img-src="https://picsum.photos/600/300/?image=25"
-                        img-alt="Image"
-                        img-top
-                        tag="article"
-                        style="max-width: 10rem"
-                        class="mb-2"
-                      >
-                        <b class="price">2.000.000đ</b>
-                        <p>Trà Tắc Xí Muội</p>
-                      </b-card>
-                      
-
-                      <b-card
-                        img-src="https://picsum.photos/600/300/?image=25"
-                        img-alt="Image"
-                        img-top
-                        tag="article"
-                        style="max-width: 10rem"
-                        class="mb-2"
-                      >
-                        <b class="price">2.000.000đ</b>
-                        <p>Trà Tắc Xí Muội</p>
-                      </b-card>
-
-                      <b-card
-                        img-src="https://picsum.photos/600/300/?image=25"
-                        img-alt="Image"
-                        img-top
-                        tag="article"
-                        style="max-width: 10rem"
-                        class="mb-2"
-                      >
-                        <b class="price">2.000.000đ</b>
-                        <p>Trà Tắc Xí Muội</p>
-                      </b-card>
-                      <b-card
-                        img-src="https://picsum.photos/600/300/?image=25"
-                        img-alt="Image"
-                        img-top
-                        tag="article"
-                        style="max-width: 10rem"
-                        class="mb-2"
-                      >
-                        <b class="price">2.000.000đ</b>
-                        <p>Trà Tắc Xí Muội</p>
-                      </b-card>
+                      <b-row class="icon-examples">
+                        <b-col lg="3" md="6">
+                          <b-card
+                            img-src="https://picsum.photos/600/300/?image=25"
+                            img-alt="Image"
+                            img-top
+                            tag="article"
+                            style="max-width: 10rem"
+                            class="mb-2"
+                          >
+                            <b class="price">2.000.000đ</b>
+                            <p>Trà Tắc Xí Muội</p>
+                          </b-card>
+                        </b-col>
+                         <b-col lg="3" md="6">
+                          <b-card
+                            img-src="https://picsum.photos/600/300/?image=25"
+                            img-alt="Image"
+                            img-top
+                            tag="article"
+                            style="max-width: 10rem"
+                            class="mb-2"
+                          >
+                            <b class="price">2.000.000đ</b>
+                            <p>Trà Tắc Xí Muội</p>
+                          </b-card>
+                        </b-col>
+                         <b-col lg="3" md="6">
+                          <b-card
+                            img-src="https://picsum.photos/600/300/?image=25"
+                            img-alt="Image"
+                            img-top
+                            tag="article"
+                            style="max-width: 10rem"
+                            class="mb-2"
+                          >
+                            <b class="price">2.000.000đ</b>
+                            <p>Trà Tắc Xí Muội</p>
+                          </b-card>
+                        </b-col>
+                         <b-col lg="3" md="6">
+                          <b-card
+                            img-src="https://picsum.photos/600/300/?image=25"
+                            img-alt="Image"
+                            img-top
+                            tag="article"
+                            style="max-width: 10rem"
+                            class="mb-2"
+                          >
+                            <b class="price">2.000.000đ</b>
+                            <p>Trà Tắc Xí Muội</p>
+                          </b-card>
+                        </b-col>
+                      </b-row>
                     </b-card-group>
                   </div>
                 </b-card-text></b-tab
@@ -138,7 +134,8 @@
                 ><b-card-text>
                   <div>
                     <b-card-group deck>
-                      <b-card no
+                      <b-card
+                        no
                         img-src="https://picsum.photos/600/300/?image=25"
                         img-alt="Image"
                         img-top

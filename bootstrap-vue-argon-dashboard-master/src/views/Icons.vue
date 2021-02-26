@@ -11,7 +11,6 @@
             sub-title="350,897"
             class="mb-4"
           >
-           
           </stats-card>
         </b-col>
         <b-col xl="3" md="6">
@@ -21,7 +20,6 @@
             sub-title="2,356"
             class="mb-4"
           >
-           
           </stats-card>
         </b-col>
         <b-col xl="3" md="6">
@@ -31,25 +29,25 @@
             sub-title="924"
             class="mb-4"
           >
-           
           </stats-card>
         </b-col>
-        
+
         <b-col xl="3" md="6">
           <stats-card>
             <div>
               <!-- Using modifiers -->
 
               <!-- Using value -->
-              
-              <b-button v-b-modal="'my-modal'">Tạo bàn</b-button> 
-              <b-button >Chuyển bàn</b-button>
+
+              <b-button v-b-modal="'my-modal'">Tạo bàn</b-button>
+              <b-button>Chuyển bàn</b-button>
 
               <!-- The modal -->
               <b-modal id="my-modal">
                 <form action="">
                   <label class="" style="display: flex" for="">Mã bàn ăn</label>
-                  <input type="text" placeholder="Nhập mã bàn ăn" style="width: 100%" /><hr/>
+                  <input type="text" placeholder="Nhập mã bàn ăn" style="width: 100%" />
+                  <hr />
                   <div>
                     <b-dropdown split split-href="#foo/bar" text="Trạng Thái" class="m-2">
                       <b-dropdown-item href="#">Có người</b-dropdown-item>
@@ -60,7 +58,6 @@
                 </form>
               </b-modal>
             </div>
-            
           </stats-card>
         </b-col>
       </b-row>
@@ -73,10 +70,21 @@
             <h3 slot="header" class="mb-0">Tất cả bàn ăn</h3>
             <b-row class="icon-examples">
               <b-col lg="3" md="6">
-                <b-button class="btn-icon-clipboard sucses">101</b-button>
+                <b-button v-b-modal.modal-1 class="btn-icon-clipboard sucses"
+                  >101
+                  <div>
+                    <b-modal id="modal-1" title="BootstrapVue">
+                      <p class="my-4">Bàn 1</p>
+                    </b-modal>
+                  </div>
+                </b-button>
               </b-col>
               <b-col lg="3" md="6">
-                <b-button class="btn-icon-clipboard no-sucses">102</b-button>
+                <b-button  v-b-modal.modal-2 class="btn-icon-clipboard no-sucses">102
+                  <b-modal id="modal-2" title="BootstrapVue">
+                      <p class="my-4">Bàn 2</p>
+                    </b-modal>
+                </b-button>
               </b-col>
               <b-col lg="3" md="6">
                 <b-button class="btn-icon-clipboard no-sucses">103</b-button>
@@ -93,7 +101,7 @@
               <b-col lg="3" md="6">
                 <b-button class="btn-icon-clipboard no-sucses">107</b-button>
               </b-col>
-                <b-col lg="3" md="6">
+              <b-col lg="3" md="6">
                 <b-button class="btn-icon-clipboard change">108</b-button>
               </b-col>
               <b-col lg="3" md="6">
@@ -108,17 +116,24 @@
               <b-col lg="3" md="6">
                 <b-button class="btn-icon-clipboard change">112</b-button>
               </b-col>
-              
-              
             </b-row>
           </card>
         </b-col>
-        
+
         <div>
           <ul>
-              <li> <div class="bg-span sucses"></div>Đã có người</li>
-              <li><div class="bg-span no-sucses" ></div> Bàn Trống </li>
-              <li><div class="bg-span change"></div>Tạm ngưng hoạt động</li>
+            <li>
+              <div class="bg-span sucses"></div>
+              Đã có người
+            </li>
+            <li>
+              <div class="bg-span no-sucses"></div>
+              Bàn Trống
+            </li>
+            <li>
+              <div class="bg-span change"></div>
+              Tạm ngưng hoạt động
+            </li>
           </ul>
         </div>
       </b-row>
@@ -163,7 +178,7 @@ ul li {
   height: 5rem;
   border: 1px solid gray;
   text-align: center;
-  font-weight: bold ;
+  font-weight: bold;
 }
 .sucses {
   background: red;

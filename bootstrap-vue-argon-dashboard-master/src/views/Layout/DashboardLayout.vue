@@ -2,8 +2,6 @@
   <div class="wrapper">
     <notifications></notifications>
     <side-bar>
-  
-  
       <template slot="links">
         <sidebar-item
           :link="{
@@ -23,70 +21,66 @@
         >
         </sidebar-item>
         <!-- Cài đặt Món -->
-         <sidebar-item
-      :link="{
-        name: 'Cài đặt menu',
-        icon: 'ni ni-shop text-primary',
-      }"
-    >
-       <sidebar-item
-          :link="{
-            name: 'Danh sách món',
-            path: '/maps',
-            icon: 'ni ni-air-baloon text-green',
-          }"
-        >
-        </sidebar-item>
-         <sidebar-item
-          :link="{
-            name: 'Cài đặt Món',
-            path: '/viewproduct',
-            icon: 'ni ni-pin-3 text-orange',
-          }"
-        >
-         
-        </sidebar-item>
-            <sidebar-item
-          :link="{
-            name: 'Cài đặt phân loại',
-            path: '/viewspecies_product',
-            icon: 'ni ni-pin-3 text-yellow',
-          }"
-        >
-         
-        </sidebar-item>
-    </sidebar-item>
-     <!-- Cài đặt nhà phân phối -->
-             <sidebar-item
-      :link="{
-        name: 'Cài đặt nhà phân phối',
-        icon: 'ni ni-pin-3 text-green',
-      }"
-    >
-       <sidebar-item
-          :link="{
-            name: 'Thiết lập nhà phân phối',
-            path: '/tables',
-            icon: 'ni ni-air-baloon text-green',
-          }"
-        >
-        </sidebar-item>
-         <sidebar-item
-          :link="{
-            name: 'Thiết lập nguyên liệu',
-            path: '/viewproduct',
-            icon: 'ni ni-pin-3 text-orange',
-          }"
-        >
-         
-        </sidebar-item>
-          
-    </sidebar-item>
-        
         <sidebar-item
           :link="{
-            name: 'Thông tin',
-            path: '/tables',
+            name: 'Cài đặt menu',
+            icon: 'ni ni-shop text-primary',
+          }"
+        >
+          <sidebar-item
+            :link="{
+              name: 'Danh sách món',
+              path: '/maps',
+              icon: 'ni ni-air-baloon text-green',
+            }"
+          >
+          </sidebar-item>
+          <sidebar-item
+            :link="{
+              name: 'Cài đặt Món',
+              path: '/viewproduct',
+              icon: 'ni ni-pin-3 text-orange',
+            }"
+          >
+          </sidebar-item>
+          <sidebar-item
+            :link="{
+              name: 'Cài đặt phân loại',
+              path: '/viewspecies_product',
+              icon: 'ni ni-pin-3 text-yellow',
+            }"
+          >
+          </sidebar-item>
+        </sidebar-item>
+        <!-- Cài đặt nhà phân phối -->
+        <sidebar-item
+          :link="{
+            name: 'Cài đặt nhà phân phối',
+            icon: 'ni ni-pin-3 text-green',
+          }"
+        >
+          <sidebar-item
+            :link="{
+              name: 'Thiết lập nhà phân phối',
+              path: '/tables',
+              icon: 'ni ni-air-baloon text-green',
+            }"
+          >
+          </sidebar-item>
+          <sidebar-item
+            :link="{
+              name: 'Thiết lập nguyên liệu',
+              path: '/meterial_product',
+              icon: 'ni ni-pin-3 text-orange',
+            }"
+          >
+          </sidebar-item>
+        </sidebar-item>
+
+        <sidebar-item
+          :link="{
+            name: 'Báo cáo',
+            path: '/report',
             icon: 'ni ni-bullet-list-67 text-red',
           }"
         >
@@ -177,6 +171,3 @@ export default {
   },
 };
 </script>
-
-
-

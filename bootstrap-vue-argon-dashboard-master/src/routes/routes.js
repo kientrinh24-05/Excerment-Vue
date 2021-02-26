@@ -47,7 +47,16 @@ const routes = [
         name: 'viewspecies_product',
         component: () => import(/* webpackChunkName: "demo" */ '../views/ViewSpeciesProduct.vue')
       },
-      
+      {
+        path: '/meterial_product',
+        name: 'meterial_product',
+        component: () => import(/* webpackChunkName: "demo" */ '../views/MeterialProduct.vue')
+      },
+      {
+        path: '/report',
+        name: 'report',
+        component: () => import(/* webpackChunkName: "demo" */ '../views/ReportProduct.vue')
+      },
     ]
   },
   {
